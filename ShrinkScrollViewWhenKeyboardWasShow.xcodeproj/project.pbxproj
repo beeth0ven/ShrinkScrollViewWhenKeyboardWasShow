@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		45C76ADF1C3CBA7A005F205B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C76ADE1C3CBA7A005F205B /* AppDelegate.swift */; };
-		45C76AE11C3CBA7A005F205B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C76AE01C3CBA7A005F205B /* ViewController.swift */; };
 		45C76AE41C3CBA7A005F205B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C76AE21C3CBA7A005F205B /* Main.storyboard */; };
 		45C76AE61C3CBA7A005F205B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C76AE51C3CBA7A005F205B /* Assets.xcassets */; };
 		45C76AE91C3CBA7A005F205B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C76AE71C3CBA7A005F205B /* LaunchScreen.storyboard */; };
+		45C76AF11C3CBA85005F205B /* ShrinkScrollViewWhenKeyboardWasShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C76AF01C3CBA85005F205B /* ShrinkScrollViewWhenKeyboardWasShow.swift */; };
+		45C76AF41C3CBAB8005F205B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C76AF31C3CBAB8005F205B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45C76ADB1C3CBA7A005F205B /* ShrinkScrollViewWhenKeyboardWasShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShrinkScrollViewWhenKeyboardWasShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45C76ADE1C3CBA7A005F205B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45C76AE01C3CBA7A005F205B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45C76AE31C3CBA7A005F205B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C76AE51C3CBA7A005F205B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45C76AE81C3CBA7A005F205B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C76AEA1C3CBA7A005F205B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C76AF01C3CBA85005F205B /* ShrinkScrollViewWhenKeyboardWasShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShrinkScrollViewWhenKeyboardWasShow.swift; sourceTree = "<group>"; };
+		45C76AF31C3CBAB8005F205B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				45C76ADE1C3CBA7A005F205B /* AppDelegate.swift */,
-				45C76AE01C3CBA7A005F205B /* ViewController.swift */,
+				45C76AF31C3CBAB8005F205B /* ViewController.swift */,
+				45C76AF01C3CBA85005F205B /* ShrinkScrollViewWhenKeyboardWasShow.swift */,
 				45C76AE21C3CBA7A005F205B /* Main.storyboard */,
+				45C76AF21C3CBA8D005F205B /* Supporting Files */,
+			);
+			path = ShrinkScrollViewWhenKeyboardWasShow;
+			sourceTree = "<group>";
+		};
+		45C76AF21C3CBA8D005F205B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				45C76AE51C3CBA7A005F205B /* Assets.xcassets */,
 				45C76AE71C3CBA7A005F205B /* LaunchScreen.storyboard */,
 				45C76AEA1C3CBA7A005F205B /* Info.plist */,
 			);
-			path = ShrinkScrollViewWhenKeyboardWasShow;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45C76AE11C3CBA7A005F205B /* ViewController.swift in Sources */,
+				45C76AF41C3CBAB8005F205B /* ViewController.swift in Sources */,
 				45C76ADF1C3CBA7A005F205B /* AppDelegate.swift in Sources */,
+				45C76AF11C3CBA85005F205B /* ShrinkScrollViewWhenKeyboardWasShow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
