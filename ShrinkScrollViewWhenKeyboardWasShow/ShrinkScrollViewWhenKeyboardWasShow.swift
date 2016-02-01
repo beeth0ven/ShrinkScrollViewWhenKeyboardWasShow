@@ -48,7 +48,6 @@ extension LoginViewController: ShrinkScrollViewWhenKeyboardWasShow {
 
 protocol ShrinkScrollViewWhenKeyboardWasShow: NotificationObserver {
     var scrollView: UIScrollView! { get set }
-    var view: UIView! { get set }
     func keyboardWasShownSelector(noti: NSNotification)
     func keyboardWillBeHiddenSelector(noti: NSNotification)
 }
